@@ -3,12 +3,18 @@
 <suite name="Failed suite [Ecommerce Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="All Ecommerce Tests(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="ecommerceTest.WishlistTest">
+=======
+<<<<<<< HEAD
+      <class name="ecommerceTest.SearchTest">
+>>>>>>> 0c9fecbf174b85e421b28c6ae6d372259af8967c
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="TC_06_RemoveProductFromWishlist"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- ecommerceTest.WishlistTest -->
       <class name="ecommerceTest.CartTest">
         <methods>
@@ -17,6 +23,19 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- ecommerceTest.CartTest -->
+=======
+      </class> <!-- ecommerceTest.SearchTest -->
+=======
+      <class name="travelBookingTest.EndToEndBookingTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC_08_PaymentFailureScenario"/>
+        </methods>
+      </class> <!-- travelBookingTest.EndToEndBookingTest -->
+>>>>>>> 395e0c3 (Travel Automation)
+>>>>>>> 0c9fecbf174b85e421b28c6ae6d372259af8967c
     </classes>
   </test> <!-- All Ecommerce Tests(failed) -->
 </suite> <!-- Failed suite [Ecommerce Suite] -->
