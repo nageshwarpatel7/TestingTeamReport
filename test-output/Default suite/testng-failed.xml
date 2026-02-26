@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="ecommerceTest.SearchTest">
         <methods>
           <include name="TC_03_SearchExistingProduct"/>
@@ -11,6 +12,16 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- ecommerceTest.SearchTest -->
+=======
+      <class name="travelBookingTest.EndToEndBookingTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC_08_PaymentFailureScenario"/>
+        </methods>
+      </class> <!-- travelBookingTest.EndToEndBookingTest -->
+>>>>>>> 395e0c3 (Travel Automation)
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
