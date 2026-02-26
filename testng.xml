@@ -5,6 +5,8 @@
         <classes>
             <class name="ecommerceTest.LoginTest"/>
             <class name="ecommerceTest.SearchTest"/>
+            <class name="ecommerceTest.WishlistTest"/>
+            <class name="ecommerceTest.CartTest"/>
         </classes>
     </test>
 

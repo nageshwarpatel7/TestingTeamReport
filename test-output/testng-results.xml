@@ -1,44 +1,296 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-25T14:10:58 IST" name="Default suite" finished-at="2026-02-25T14:11:30 IST" duration-ms="32090">
+  <suite started-at="2026-02-27T04:07:14 IST" name="Ecommerce Suite" finished-at="2026-02-27T04:08:36 IST" duration-ms="81688">
     <groups>
     </groups>
-    <test started-at="2026-02-25T14:10:58 IST" name="Default test" finished-at="2026-02-25T14:11:30 IST" duration-ms="32090">
-      <class name="ecommerceTest.SearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommerceTest.SearchTest@44ebcd03]" started-at="2026-02-25T14:10:58 IST" name="setup" finished-at="2026-02-25T14:11:10 IST" duration-ms="12717" status="PASS">
+    <test started-at="2026-02-27T04:07:14 IST" name="All Ecommerce Tests" finished-at="2026-02-27T04:08:36 IST" duration-ms="81688">
+      <class name="ecommerceTest.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommerceTest.LoginTest@776aec5c]" started-at="2026-02-27T04:07:14 IST" name="setup" finished-at="2026-02-27T04:07:22 IST" duration-ms="7723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_03_SearchExistingProduct()[pri:0, instance:ecommerceTest.SearchTest@44ebcd03]" started-at="2026-02-25T14:11:10 IST" name="TC_03_SearchExistingProduct" finished-at="2026-02-25T14:11:15 IST" duration-ms="4622" status="PASS">
+        <test-method signature="TC_01_LoginWithValidCredentials()[pri:0, instance:ecommerceTest.LoginTest@776aec5c]" started-at="2026-02-27T04:07:22 IST" name="TC_01_LoginWithValidCredentials" finished-at="2026-02-27T04:07:26 IST" duration-ms="3893" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_03_SearchExistingProduct -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerceTest.SearchTest@44ebcd03]" started-at="2026-02-25T14:11:15 IST" name="tearDown" finished-at="2026-02-25T14:11:16 IST" duration-ms="1250" status="PASS">
+        </test-method> <!-- TC_01_LoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerceTest.LoginTest@776aec5c]" started-at="2026-02-27T04:07:26 IST" name="tearDown" finished-at="2026-02-27T04:07:27 IST" duration-ms="1041" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_03_SearchExistingProduct status=SUCCESS method=SearchTest.TC_03_SearchExistingProduct()[pri:0, instance:ecommerceTest.SearchTest@44ebcd03] output={null}]]]>
+                <![CDATA[[TestResult name=TC_01_LoginWithValidCredentials status=SUCCESS method=LoginTest.TC_01_LoginWithValidCredentials()[pri:0, instance:ecommerceTest.LoginTest@776aec5c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommerceTest.SearchTest@44ebcd03]" started-at="2026-02-25T14:11:16 IST" name="setup" finished-at="2026-02-25T14:11:26 IST" duration-ms="9533" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommerceTest.LoginTest@776aec5c]" started-at="2026-02-27T04:07:27 IST" name="setup" finished-at="2026-02-27T04:07:31 IST" duration-ms="3643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_04_SearchNonExistingProduct()[pri:0, instance:ecommerceTest.SearchTest@44ebcd03]" started-at="2026-02-25T14:11:26 IST" name="TC_04_SearchNonExistingProduct" finished-at="2026-02-25T14:11:27 IST" duration-ms="1088" status="PASS">
+        <test-method signature="TC_02_LoginWithInvalidCredentials()[pri:0, instance:ecommerceTest.LoginTest@776aec5c]" started-at="2026-02-27T04:07:31 IST" name="TC_02_LoginWithInvalidCredentials" finished-at="2026-02-27T04:07:34 IST" duration-ms="2990" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_04_SearchNonExistingProduct -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerceTest.SearchTest@44ebcd03]" started-at="2026-02-25T14:11:27 IST" name="tearDown" finished-at="2026-02-25T14:11:30 IST" duration-ms="2784" status="PASS">
+        </test-method> <!-- TC_02_LoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerceTest.LoginTest@776aec5c]" started-at="2026-02-27T04:07:34 IST" name="tearDown" finished-at="2026-02-27T04:07:34 IST" duration-ms="568" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_04_SearchNonExistingProduct status=SUCCESS method=SearchTest.TC_04_SearchNonExistingProduct()[pri:0, instance:ecommerceTest.SearchTest@44ebcd03] output={null}]]]>
+                <![CDATA[[TestResult name=TC_02_LoginWithInvalidCredentials status=SUCCESS method=LoginTest.TC_02_LoginWithInvalidCredentials()[pri:0, instance:ecommerceTest.LoginTest@776aec5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerceTest.LoginTest -->
+      <class name="ecommerceTest.WishlistTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommerceTest.WishlistTest@3b0090a4]" started-at="2026-02-27T04:07:49 IST" name="setup" finished-at="2026-02-27T04:07:53 IST" duration-ms="3643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_05_AddProductToWishlist()[pri:0, instance:ecommerceTest.WishlistTest@3b0090a4]" started-at="2026-02-27T04:07:53 IST" name="TC_05_AddProductToWishlist" finished-at="2026-02-27T04:07:58 IST" duration-ms="5201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_AddProductToWishlist -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerceTest.WishlistTest@3b0090a4]" started-at="2026-02-27T04:07:58 IST" name="tearDown" finished-at="2026-02-27T04:07:58 IST" duration-ms="477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_05_AddProductToWishlist status=SUCCESS method=WishlistTest.TC_05_AddProductToWishlist()[pri:0, instance:ecommerceTest.WishlistTest@3b0090a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommerceTest.WishlistTest@3b0090a4]" started-at="2026-02-27T04:07:58 IST" name="setup" finished-at="2026-02-27T04:08:03 IST" duration-ms="4214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_06_RemoveProductFromWishlist()[pri:0, instance:ecommerceTest.WishlistTest@3b0090a4]" started-at="2026-02-27T04:08:03 IST" name="TC_06_RemoveProductFromWishlist" finished-at="2026-02-27T04:08:12 IST" duration-ms="9532" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/wishlist" class="ico-wishlist">...</a> is not clickable at point (1163, 22). Other element would receive the click: <p class="content">...</p>
+  (Session info: chrome=145.0.7632.110)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9d8be5d084c091d559a13c61708b353, clickElement {id=f.A895B2FBD628E37CC6F13BE7052337AF.d.3027BA5F07783669204D92A03AF10AF7.e.264}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.110, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63400}, goog:processID: 3348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63400/devtoo..., se:cdpVersion: 145.0.7632.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c9d8be5d084c091d559a13c61708b353)] -> xpath: //a[contains(@class,'ico-wishlist')]]
+Session ID: c9d8be5d084c091d559a13c61708b353]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/wishlist" class="ico-wishlist">...</a> is not clickable at point (1163, 22). Other element would receive the click: <p class="content">...</p>
+  (Session info: chrome=145.0.7632.110)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9d8be5d084c091d559a13c61708b353, clickElement {id=f.A895B2FBD628E37CC6F13BE7052337AF.d.3027BA5F07783669204D92A03AF10AF7.e.264}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.110, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63400}, goog:processID: 3348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63400/devtoo..., se:cdpVersion: 145.0.7632.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c9d8be5d084c091d559a13c61708b353)] -> xpath: //a[contains(@class,'ico-wishlist')]]
+Session ID: c9d8be5d084c091d559a13c61708b353
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pages.WishlistPage.openWishlist(WishlistPage.java:21)
+at ecommerceTest.WishlistTest.TC_06_RemoveProductFromWishlist(WishlistTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_RemoveProductFromWishlist -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerceTest.WishlistTest@3b0090a4]" started-at="2026-02-27T04:08:12 IST" name="tearDown" finished-at="2026-02-27T04:08:13 IST" duration-ms="785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_06_RemoveProductFromWishlist status=FAILURE method=WishlistTest.TC_06_RemoveProductFromWishlist()[pri:0, instance:ecommerceTest.WishlistTest@3b0090a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerceTest.WishlistTest -->
+      <class name="ecommerceTest.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommerceTest.CartTest@3cd3e762]" started-at="2026-02-27T04:08:13 IST" name="setup" finished-at="2026-02-27T04:08:16 IST" duration-ms="3282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_07_AddProductToCart()[pri:0, instance:ecommerceTest.CartTest@3cd3e762]" started-at="2026-02-27T04:08:16 IST" name="TC_07_AddProductToCart" finished-at="2026-02-27T04:08:23 IST" duration-ms="6326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_AddProductToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerceTest.CartTest@3cd3e762]" started-at="2026-02-27T04:08:23 IST" name="tearDown" finished-at="2026-02-27T04:08:23 IST" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_07_AddProductToCart status=SUCCESS method=CartTest.TC_07_AddProductToCart()[pri:0, instance:ecommerceTest.CartTest@3cd3e762] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommerceTest.CartTest@3cd3e762]" started-at="2026-02-27T04:08:23 IST" name="setup" finished-at="2026-02-27T04:08:26 IST" duration-ms="3344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_08_UpdateCartQuantity()[pri:0, instance:ecommerceTest.CartTest@3cd3e762]" started-at="2026-02-27T04:08:26 IST" name="TC_08_UpdateCartQuantity" finished-at="2026-02-27T04:08:35 IST" duration-ms="8611" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=145.0.7632.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b246528cad844fccc59bb5f0ba6781e, sendKeysToElement {id=f.7C5A87AA2D044EE62AC2326391A07B4D.d.23D6D43CFCE1A8D6DC5024B6569B48C8.e.214, value=[Ljava.lang.CharSequence;@2f4d32bf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.110, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63488}, goog:processID: 15484, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63488/devtoo..., se:cdpVersion: 145.0.7632.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0b246528cad844fccc59bb5f0ba6781e)] -> xpath: //input[contains(@class,'qty-input')]]
+Session ID: 0b246528cad844fccc59bb5f0ba6781e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=145.0.7632.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b246528cad844fccc59bb5f0ba6781e, sendKeysToElement {id=f.7C5A87AA2D044EE62AC2326391A07B4D.d.23D6D43CFCE1A8D6DC5024B6569B48C8.e.214, value=[Ljava.lang.CharSequence;@2f4d32bf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.110, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63488}, goog:processID: 15484, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63488/devtoo..., se:cdpVersion: 145.0.7632.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0b246528cad844fccc59bb5f0ba6781e)] -> xpath: //input[contains(@class,'qty-input')]]
+Session ID: 0b246528cad844fccc59bb5f0ba6781e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at pages.CartPage.updateQuantity(CartPage.java:29)
+at ecommerceTest.CartTest.TC_08_UpdateCartQuantity(CartTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_UpdateCartQuantity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerceTest.CartTest@3cd3e762]" started-at="2026-02-27T04:08:35 IST" name="tearDown" finished-at="2026-02-27T04:08:36 IST" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_08_UpdateCartQuantity status=FAILURE method=CartTest.TC_08_UpdateCartQuantity()[pri:0, instance:ecommerceTest.CartTest@3cd3e762] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerceTest.CartTest -->
+      <class name="ecommerceTest.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommerceTest.SearchTest@179ece50]" started-at="2026-02-27T04:07:34 IST" name="setup" finished-at="2026-02-27T04:07:38 IST" duration-ms="3698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_03_SearchExistingProduct()[pri:0, instance:ecommerceTest.SearchTest@179ece50]" started-at="2026-02-27T04:07:38 IST" name="TC_03_SearchExistingProduct" finished-at="2026-02-27T04:07:42 IST" duration-ms="4693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_SearchExistingProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerceTest.SearchTest@179ece50]" started-at="2026-02-27T04:07:42 IST" name="tearDown" finished-at="2026-02-27T04:07:43 IST" duration-ms="527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_03_SearchExistingProduct status=SUCCESS method=SearchTest.TC_03_SearchExistingProduct()[pri:0, instance:ecommerceTest.SearchTest@179ece50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommerceTest.SearchTest@179ece50]" started-at="2026-02-27T04:07:43 IST" name="setup" finished-at="2026-02-27T04:07:47 IST" duration-ms="3554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_04_SearchNonExistingProduct()[pri:0, instance:ecommerceTest.SearchTest@179ece50]" started-at="2026-02-27T04:07:47 IST" name="TC_04_SearchNonExistingProduct" finished-at="2026-02-27T04:07:49 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_SearchNonExistingProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerceTest.SearchTest@179ece50]" started-at="2026-02-27T04:07:49 IST" name="tearDown" finished-at="2026-02-27T04:07:49 IST" duration-ms="489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_04_SearchNonExistingProduct status=SUCCESS method=SearchTest.TC_04_SearchNonExistingProduct()[pri:0, instance:ecommerceTest.SearchTest@179ece50] output={null}]]]>
               </value>
             </param>
           </params>
@@ -46,6 +298,6 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ecommerceTest.SearchTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- All Ecommerce Tests -->
+  </suite> <!-- Ecommerce Suite -->
 </testng-results>

@@ -8,12 +8,61 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">32,090</td><td></td><td></td></tr>
+<tr><th colspan="8">Ecommerce Suite</th></tr>
+<tr><td><a href="#t0">All Ecommerce Tests</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">81,688</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">ecommerceTest.SearchTest</td><td><a href="#m0">TC_03_SearchExistingProduct</a></td><td rowspan="1">1772008870985</td><td rowspan="1">4622</td></tr><tr class="passedeven"><td><a href="#m1">TC_04_SearchNonExistingProduct</a></td><td rowspan="1">1772008886392</td><td rowspan="1">1088</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Ecommerce Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Ecommerce Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ecommerceTest.CartTest</td><td><a href="#m0">TC_08_UpdateCartQuantity</a></td><td rowspan="1">1772145506864</td><td rowspan="1">8611</td></tr><tr class="failedodd"><td rowspan="1">ecommerceTest.WishlistTest</td><td><a href="#m1">TC_06_RemoveProductFromWishlist</a></td><td rowspan="1">1772145483152</td><td rowspan="1">9532</td></tr><tr><th colspan="4">All Ecommerce Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ecommerceTest.CartTest</td><td><a href="#m2">TC_07_AddProductToCart</a></td><td rowspan="1">1772145496795</td><td rowspan="1">6326</td></tr><tr class="passedodd"><td rowspan="2">ecommerceTest.LoginTest</td><td><a href="#m3">TC_01_LoginWithValidCredentials</a></td><td rowspan="1">1772145442440</td><td rowspan="1">3893</td></tr><tr class="passedodd"><td><a href="#m4">TC_02_LoginWithInvalidCredentials</a></td><td rowspan="1">1772145451026</td><td rowspan="1">2990</td></tr><tr class="passedeven"><td rowspan="2">ecommerceTest.SearchTest</td><td><a href="#m5">TC_03_SearchExistingProduct</a></td><td rowspan="1">1772145458296</td><td rowspan="1">4693</td></tr><tr class="passedeven"><td><a href="#m6">TC_04_SearchNonExistingProduct</a></td><td rowspan="1">1772145467076</td><td rowspan="1">2010</td></tr><tr class="passedodd"><td rowspan="1">ecommerceTest.WishlistTest</td><td><a href="#m7">TC_05_AddProductToWishlist</a></td><td rowspan="1">1772145473222</td><td rowspan="1">5201</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">ecommerceTest.SearchTest#TC_03_SearchExistingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">ecommerceTest.SearchTest#TC_04_SearchNonExistingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>All Ecommerce Tests</h2><h3 id="m0">ecommerceTest.CartTest#TC_08_UpdateCartQuantity</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=145.0.7632.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b246528cad844fccc59bb5f0ba6781e, sendKeysToElement {id=f.7C5A87AA2D044EE62AC2326391A07B4D.d.23D6D43CFCE1A8D6DC5024B6569B48C8.e.214, value=[Ljava.lang.CharSequence;@2f4d32bf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.110, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63488}, goog:processID: 15484, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63488/devtoo..., se:cdpVersion: 145.0.7632.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0b246528cad844fccc59bb5f0ba6781e)] -&gt; xpath: //input[contains(@class,&apos;qty-input&apos;)]]
+Session ID: 0b246528cad844fccc59bb5f0ba6781e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at pages.CartPage.updateQuantity(CartPage.java:29)
+	at ecommerceTest.CartTest.TC_08_UpdateCartQuantity(CartTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ecommerceTest.WishlistTest#TC_06_RemoveProductFromWishlist</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/wishlist&quot; class=&quot;ico-wishlist&quot;&gt;...&lt;/a&gt; is not clickable at point (1163, 22). Other element would receive the click: &lt;p class=&quot;content&quot;&gt;...&lt;/p&gt;
+  (Session info: chrome=145.0.7632.110)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9d8be5d084c091d559a13c61708b353, clickElement {id=f.A895B2FBD628E37CC6F13BE7052337AF.d.3027BA5F07783669204D92A03AF10AF7.e.264}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.110, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63400}, goog:processID: 3348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63400/devtoo..., se:cdpVersion: 145.0.7632.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c9d8be5d084c091d559a13c61708b353)] -&gt; xpath: //a[contains(@class,&apos;ico-wishlist&apos;)]]
+Session ID: c9d8be5d084c091d559a13c61708b353
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.WishlistPage.openWishlist(WishlistPage.java:21)
+	at ecommerceTest.WishlistTest.TC_06_RemoveProductFromWishlist(WishlistTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ecommerceTest.CartTest#TC_07_AddProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ecommerceTest.LoginTest#TC_01_LoginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ecommerceTest.LoginTest#TC_02_LoginWithInvalidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">ecommerceTest.SearchTest#TC_03_SearchExistingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">ecommerceTest.SearchTest#TC_04_SearchNonExistingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">ecommerceTest.WishlistTest#TC_05_AddProductToWishlist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
