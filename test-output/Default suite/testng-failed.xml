@@ -3,25 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
-      <class name="ecommerceTest.SearchTest">
+      <class name="CRMTest.HRWorkFlowTest">
         <methods>
-          <include name="TC_03_SearchExistingProduct"/>
-          <include name="TC_04_SearchNonExistingProduct"/>
-          <include name="setup"/>
+          <include name="flushReport"/>
+          <include name="testCompleteHRWorkflow"/>
+          <include name="setupReport"/>
           <include name="tearDown"/>
+          <include name="setupDriver"/>
         </methods>
-      </class> <!-- ecommerceTest.SearchTest -->
-=======
-      <class name="travelBookingTest.EndToEndBookingTest">
-        <methods>
-          <include name="setup"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="TC_08_PaymentFailureScenario"/>
-        </methods>
-      </class> <!-- travelBookingTest.EndToEndBookingTest -->
->>>>>>> 395e0c3 (Travel Automation)
+      </class> <!-- CRMTest.HRWorkFlowTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
